@@ -218,6 +218,58 @@ section .card-item {
     color: var(--blue);
 }
 
+/* about */
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+}
+.about-content {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: var(--gray);
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+}
+.about-left {
+    width: 25%;
+    min-width: 300px;
+    height: 100%;
+    background: var(--back-transparent);
+    border-radius: 8px;
+}
+.about-right {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border-radius: 8px;
+    padding-top: 10%;
+}
+.about-right h3 {
+   text-align: right;
+   width: 90%;
+   margin-bottom: 20px;
+}
+.about-right p {
+    max-width: 90%;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: right;
+    color: rgba(0, 0, 0, .4);
+
+ }
 
 
 
